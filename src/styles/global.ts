@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
+
 import { reset } from './reset'
 
 const GlobalStyles = createGlobalStyle`
@@ -26,7 +27,7 @@ const GlobalStyles = createGlobalStyle`
     --containerSm: 33.75rem //540px
     --containerMd: 45rem //720px
     --containerLg: 60rem //960px
-    --containerXlg: 73.125rem //1170px
+    --containerXl: 73.125rem //1170px
     --gutter: .9375rem; //15px
   }
 

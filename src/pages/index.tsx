@@ -1,6 +1,7 @@
+import Head from 'next/head'
+
 import Text from 'components/common/Text'
 import Title from 'components/common/Title'
-import Head from 'next/head'
 
 const Home = () => {
   return (
