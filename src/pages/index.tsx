@@ -1,9 +1,11 @@
-import Main from 'components/Main'
+import Head from 'next/head'
 
 const Home = () => {
   return (
     <>
-      <Main />
+      <Head>
+        <title>Home | João Pedro - WebDev</title>
+      </Head>
     </>
   )
 }
