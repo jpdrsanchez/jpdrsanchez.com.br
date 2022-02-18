@@ -24,10 +24,10 @@ const GlobalStyles = createGlobalStyle`
     --textFont: 'Fira Code', monospace;
 
     /* Units & Spaces */
-    --containerSm: 33.75rem //540px
-    --containerMd: 45rem //720px
-    --containerLg: 60rem //960px
-    --containerXl: 73.125rem //1170px
+    --containerSm: 33.75rem; //540px
+    --containerMd: 45rem; //720px
+    --containerLg: 60rem; //960px
+    --containerXl: 73.125rem; //1170px
     --gutter: .9375rem; //15px
   }
 

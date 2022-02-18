@@ -6,11 +6,13 @@ import '@fontsource/fira-sans/700.css'
 import '@fontsource/fira-sans/900.css'
 
 import GlobalStyles from 'styles/global'
+import Header from 'components/Header'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <GlobalStyles />
+      <Header />
       <Component {...pageProps} />
     </>
   )
