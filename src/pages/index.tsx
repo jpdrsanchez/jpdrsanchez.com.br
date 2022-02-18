@@ -1,4 +1,5 @@
-import { Title } from 'components/common/Title/styles'
+import Text from 'components/common/Text'
+import Title from 'components/common/Title'
 import Head from 'next/head'
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
       </Head>
       <div>
         <Title>Título</Title>
+        <Text>Texto do site</Text>
       </div>
     </>
   )

@@ -32,7 +32,7 @@ describe('<Title />', () => {
         <Title align="center" level={2}>
           Title
         </Title>
-        <Title style="medium" align="right" level={3}>
+        <Title elementStyle="medium" align="right" level={3}>
           Title
         </Title>
       </>
