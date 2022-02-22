@@ -45,7 +45,7 @@ const GlobalStyles = createGlobalStyle`
   body {
     font-family: var(--textFont);
     background: var(--mainBg);
-    color: var(text);
+    color: var(--text);
   }
 
   a {
