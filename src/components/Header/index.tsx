@@ -1,6 +1,8 @@
+import IconNav from 'components/IconNav'
 import Logo from 'components/Logo'
 import Menu from 'components/Menu'
 import Link from 'next/link'
+import { IoLogoLinkedin, IoLogoGithub } from 'react-icons/io5'
 
 import * as S from './styles'
 
@@ -14,7 +16,24 @@ const Header = () => {
             <p>João Pedro Sanchez - Web Dev</p>
           </a>
         </Link>
-        <div>Ícones</div>
+        <IconNav>
+          <a
+            href="https://www.linkedin.com/in/jpdrsanchez/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <IoLogoLinkedin aria-hidden="true" focusable="false" />
+            <p>Linkedin</p>
+          </a>
+          <a
+            href="https://github.com/jpdrsanchez/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <IoLogoGithub aria-hidden="true" focusable="false" />
+            <p>Github</p>
+          </a>
+        </IconNav>
         <Menu />
       </S.HeaderContainer>
     </S.Header>

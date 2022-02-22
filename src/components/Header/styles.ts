@@ -11,6 +11,24 @@ export const HeaderContainer = styled(Container)`
     @media (min-width: 48em) {
       grid-row: 1;
     }
+
+    &:nth-child(1) {
+      @media (min-width: 48em) {
+        grid-column: 1 / 3;
+      }
+    }
+
+    &:nth-child(2) {
+      @media (min-width: 48em) {
+        grid-column: 9 / 13;
+      }
+    }
+
+    &:nth-child(3) {
+      @media (min-width: 48em) {
+        grid-column: 3 / 9;
+      }
+    }
   }
 
   display: grid;
@@ -22,6 +40,7 @@ export const HeaderContainer = styled(Container)`
   grid-template-columns: 1fr 1fr 1fr;
 
   @media (min-width: 48em) {
+    display: grid;
     grid-template-columns: repeat(12, 1fr);
   }
 
@@ -29,10 +48,6 @@ export const HeaderContainer = styled(Container)`
     display: block;
     max-width: 100%;
     position: relative;
-
-    @media (min-width: 48em) {
-      grid-column: 1 / 3;
-    }
 
     svg {
       max-width: 4.375rem;
@@ -47,19 +62,6 @@ export const HeaderContainer = styled(Container)`
       position: absolute;
       white-space: nowrap;
       width: 1px;
-    }
-  }
-
-  nav {
-    @media (min-width: 48em) {
-      grid-column: 3 / 9;
-    }
-  }
-
-  & > div {
-    @media (min-width: 48em) {
-      grid-column: 9 / 13;
-      text-align: right;
     }
   }
 `
