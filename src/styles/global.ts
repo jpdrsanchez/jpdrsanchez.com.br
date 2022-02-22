@@ -56,6 +56,10 @@ const GlobalStyles = createGlobalStyle`
     display: block;
     max-width: 100%;
   }
+
+  .no-overflow {
+    overflow: hidden;
+  }
 `
 
 export default GlobalStyles
