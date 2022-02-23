@@ -15,4 +15,8 @@ export const Text = styled.p<TextProps>`
     line-height: ${elementStyle === 'normal' ? '1.5rem' : '1.25rem'};
     text-align: ${align};
   `}
+
+  a {
+    color: var(--link);
+  }
 `
