@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export const Main = styled.main`
   position: relative;
   padding-top: 3.75rem;
-  padding-bottom: 14rem;
+  padding-bottom: 3.75rem;
 
   @media (max-width: 35.9375em) {
     padding-left: 0.9375rem;
@@ -13,6 +13,7 @@ export const Main = styled.main`
 
   @media (min-width: 48em) {
     padding-top: 5.625rem;
+    padding-bottom: 5.625rem;
   }
 `
 
