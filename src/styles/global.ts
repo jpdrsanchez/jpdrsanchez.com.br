@@ -18,6 +18,8 @@ const GlobalStyles = createGlobalStyle`
     --codeSelected: #fff;
     --codeProp: #ff616e;
     --codeValue: #8cc265;
+    --codeBg: #282c34;
+    --codeTab: #21252b;
 
     /* Typography */
     --titleFont: 'Fira Sans', sans-serif;
@@ -59,6 +61,14 @@ const GlobalStyles = createGlobalStyle`
 
   .no-overflow {
     overflow: hidden;
+  }
+
+  .red {
+    color: var(--codeProp);
+  }
+
+  .green {
+    color: var(--codeValue);
   }
 `
 
