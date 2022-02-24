@@ -11,12 +11,16 @@ export const Wrapper = styled.section`
 `
 
 export const ContentArea = styled.div`
-  background: rgba(224, 224, 224, 0.8);
+  background: var(--secondBg);
   padding-top: 1.875rem;
   padding-bottom: 1.875rem;
   margin-top: -0.0625rem;
 
   h2 {
     margin-bottom: 1.875rem;
+  }
+
+  a {
+    margin: 3.75rem auto 0;
   }
 `

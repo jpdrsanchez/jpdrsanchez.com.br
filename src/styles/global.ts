@@ -12,7 +12,7 @@ const GlobalStyles = createGlobalStyle`
     --text: #69707d;
     --link: #219ebc;
     --mainBg: #fff;
-    --secondBg: rgba(224, 224, 224, 0.8);
+    --secondBg: #e6e6e6;
     --borders: #e4e9f2;
     --codeUnselected: #abb2bf;
     --codeSelected: #fff;
