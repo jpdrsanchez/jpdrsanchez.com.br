@@ -9,6 +9,8 @@ const ArticleList = () => {
     <S.List>
       <Link href="/" passHref>
         <S.Item>
+          <div />
+          <div />
           <article>
             <div>
               <Title elementStyle="medium" level={3}>
@@ -40,6 +42,8 @@ const ArticleList = () => {
       </Link>
       <Link href="/" passHref>
         <S.Item>
+          <div />
+          <div />
           <article>
             <div>
               <Title elementStyle="medium" level={3}>
@@ -71,6 +75,8 @@ const ArticleList = () => {
       </Link>
       <Link href="/" passHref>
         <S.Item>
+          <div />
+          <div />
           <article>
             <div>
               <Title elementStyle="medium" level={3}>
