@@ -14,4 +14,5 @@ export const Button = styled.button`
   min-width: 12.5rem;
   text-align: center;
   width: max-content;
+  cursor: pointer;
 `

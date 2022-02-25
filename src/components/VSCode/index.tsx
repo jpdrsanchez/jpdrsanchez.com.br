@@ -23,247 +23,183 @@ const VSCode = () => {
       <S.TabPanels>
         <div id="jobs" role="tabpanel">
           <div aria-hidden="true">[</div>
-          <S.SpaceOne>{'{'}</S.SpaceOne>
+          <S.SpaceOne aria-hidden="true">{'{'}</S.SpaceOne>
           <S.SpaceTwo>
             <ul>
-              <li>
-                <span className="red">
-                  <span aria-hidden="true">“</span>
-                  empresa
-                  <span aria-hidden="true">”</span>
+              <li aria-label="Empresa: Caju Benefícios">
+                <span className="red" aria-hidden="true">
+                  “empresa”
                 </span>
-                :{' '}
-                <span className="green">
-                  <span aria-hidden="true">“</span>
-                  Caju Benefícios
-                  <span aria-hidden="true">”</span>
+                <span aria-hidden="true">:</span>{' '}
+                <span className="green" aria-hidden="true">
+                  “Caju Benefícios”
                 </span>
               </li>
-              <li>
-                <span className="red">
-                  <span aria-hidden="true">“</span>
-                  período
-                  <span aria-hidden="true">”</span>
+              <li aria-label="Período: De fevereiro de 2022 até o momento">
+                <span className="red" aria-hidden="true">
+                  “período”
                 </span>
-                :{' '}
-                <span className="green">
-                  <span aria-hidden="true">“</span>
-                  Fev/2022 - O momento
-                  <span aria-hidden="true">”</span>
+                <span aria-hidden="true">:</span>{' '}
+                <span className="green" aria-hidden="true">
+                  “Fev/2022 - O momento”
                 </span>
               </li>
-              <li>
-                <span className="red">
-                  <span aria-hidden="true">“</span>
-                  cargo
-                  <span aria-hidden="true">”</span>
+              <li aria-label="Cargo: Engenheiro de Software">
+                <span className="red" aria-hidden="true">
+                  “cargo”
                 </span>
-                :{' '}
-                <span className="green">
-                  <span aria-hidden="true">“</span>
-                  Software Engineer
-                  <span aria-hidden="true">”</span>
+                <span aria-hidden="true">:</span>{' '}
+                <span className="green" aria-hidden="true">
+                  “Software Engineer”
                 </span>
               </li>
-              <li>
-                <span className="red">
-                  <span aria-hidden="true">“</span>
-                  atividades
-                  <span aria-hidden="true">”</span>
+              <li aria-label="Atividades: Em breve uma descrição linda e detalhada">
+                <span className="red" aria-hidden="true">
+                  “atividades”
                 </span>
-                :{' '}
-                <span className="green">
-                  <span aria-hidden="true">“</span>
-                  Em breve uma descrição linda e detalhada 💅
-                  <span aria-hidden="true">”</span>
+                <span aria-hidden="true">:</span>{' '}
+                <span className="green" aria-hidden="true">
+                  “Em breve uma descrição linda e detalhada 💅”
                 </span>
               </li>
             </ul>
           </S.SpaceTwo>
-          <S.SpaceOne>{'},'}</S.SpaceOne>
-          <S.SpaceOne>{'{'}</S.SpaceOne>
+          <S.SpaceOne aria-hidden="true">{'},'}</S.SpaceOne>
+          <S.SpaceOne aria-hidden="true">{'{'}</S.SpaceOne>
           <S.SpaceTwo>
             <ul>
-              <li>
-                <span className="red">
-                  <span aria-hidden="true">“</span>
-                  empresa
-                  <span aria-hidden="true">”</span>
+              <li aria-label="Empresa: Canalfy">
+                <span className="red" aria-hidden="true">
+                  “empresa”
                 </span>
-                :{' '}
-                <span className="green">
-                  <span aria-hidden="true">“</span>
-                  Canalfy
-                  <span aria-hidden="true">”</span>
+                <span aria-hidden="true">:</span>{' '}
+                <span className="green" aria-hidden="true">
+                  “Canalfy”
                 </span>
               </li>
-              <li>
-                <span className="red">
-                  <span aria-hidden="true">“</span>
-                  período
-                  <span aria-hidden="true">”</span>
+              <li aria-label="Período: De Agosto de 2021 à Fevereiro de 2022">
+                <span className="red" aria-hidden="true">
+                  “período”
                 </span>
-                :{' '}
-                <span className="green">
-                  <span aria-hidden="true">“</span>
-                  Ago/2021 - Fev/2022
-                  <span aria-hidden="true">”</span>
+                <span aria-hidden="true">:</span>{' '}
+                <span className="green" aria-hidden="true">
+                  “Ago/2021 - Fev/2022”
                 </span>
               </li>
-              <li>
-                <span className="red">
-                  <span aria-hidden="true">“</span>
-                  cargo
-                  <span aria-hidden="true">”</span>
+              <li aria-label="Cargo: Desenvolvedor Front-End Pleno">
+                <span className="red" aria-hidden="true">
+                  “cargo”
                 </span>
-                :{' '}
-                <span className="green">
-                  <span aria-hidden="true">“</span>
-                  Desenvolvedor Front-end Pleno
-                  <span aria-hidden="true">”</span>
+                <span aria-hidden="true">:</span>{' '}
+                <span className="green" aria-hidden="true">
+                  “Desenvolvedor Front-end Pleno”
                 </span>
               </li>
-              <li>
-                <span className="red">
-                  <span aria-hidden="true">“</span>
-                  atividades
-                  <span aria-hidden="true">”</span>
+              <li aria-label="Atividades: Desenvolvimento e manutenção da aplicação Canalfy utilizando NextJS, Styled Components, React Hook Form, Axios e Redux">
+                <span className="red" aria-hidden="true">
+                  “atividades”
                 </span>
-                :{' '}
-                <span className="green">
-                  <span aria-hidden="true">“</span>
-                  Desenvolvimento e manutenção da aplicação Canalfy utilizando
-                  NextJS, Styled Components, React Hook Form, Axios e Redux
-                  <span aria-hidden="true">”</span>
+                <span aria-hidden="true">:</span>{' '}
+                <span className="green" aria-hidden="true">
+                  “Desenvolvimento e manutenção da aplicação Canalfy utilizando
+                  NextJS, Styled Components, React Hook Form, Axios e Redux”
                 </span>
               </li>
             </ul>
           </S.SpaceTwo>
-          <S.SpaceOne>{'},'}</S.SpaceOne>
-          <S.SpaceOne>{'{'}</S.SpaceOne>
+          <S.SpaceOne aria-hidden="true">{'},'}</S.SpaceOne>
+          <S.SpaceOne aria-hidden="true">{'{'}</S.SpaceOne>
           <S.SpaceTwo>
             <ul>
-              <li>
-                <span className="red">
-                  <span aria-hidden="true">“</span>
-                  empresa
-                  <span aria-hidden="true">”</span>
+              <li aria-label="Empresa: Noweb">
+                <span className="red" aria-hidden="true">
+                  “empresa”
                 </span>
-                :{' '}
-                <span className="green">
-                  <span aria-hidden="true">“</span>
-                  Noweb
-                  <span aria-hidden="true">”</span>
+                <span aria-hidden="true">:</span>{' '}
+                <span className="green" aria-hidden="true">
+                  “Noweb”
                 </span>
               </li>
-              <li>
-                <span className="red">
-                  <span aria-hidden="true">“</span>
-                  período
-                  <span aria-hidden="true">”</span>
+              <li aria-label="Período: De fevereiro de 2021 à Agosto de 2021">
+                <span className="red" aria-hidden="true">
+                  “período”
                 </span>
-                :{' '}
-                <span className="green">
-                  <span aria-hidden="true">“</span>
-                  Fev/2021 - Ago/2021
-                  <span aria-hidden="true">”</span>
+                <span aria-hidden="true">:</span>{' '}
+                <span className="green" aria-hidden="true">
+                  “Fev/2021 - Ago/2021”
                 </span>
               </li>
-              <li>
-                <span className="red">
-                  <span aria-hidden="true">“</span>
-                  cargo
-                  <span aria-hidden="true">”</span>
+              <li aria-label="Cargo: Desenvolvedor Fullstack (Freelancer)">
+                <span className="red" aria-hidden="true">
+                  “cargo”
                 </span>
-                :{' '}
-                <span className="green">
-                  <span aria-hidden="true">“</span>
-                  Desenvolvedor Fullstack (Freelancer)
-                  <span aria-hidden="true">”</span>
+                <span aria-hidden="true">:</span>{' '}
+                <span className="green" aria-hidden="true">
+                  “Desenvolvedor Fullstack (Freelancer)”
                 </span>
               </li>
-              <li>
-                <span className="red">
-                  <span aria-hidden="true">“</span>
-                  atividades
-                  <span aria-hidden="true">”</span>
+              <li aria-label="Atividades: Desenvolvimento de diversos sites e sistemas web voltados para as mais diversas áreas de atuação, atuei na criação de sites em HTML5, Sass e Javascript, sistemas em NextJS e Styled Components, além do desenvolvimento do novo Painel de Controle feito em Laravel">
+                <span className="red" aria-hidden="true">
+                  “atividades”
                 </span>
-                :{' '}
-                <span className="green">
-                  <span aria-hidden="true">“</span>
-                  Desenvolvimento de diversos sites e sistemas web voltados para
-                  as mais diversas áreas de atuação, atuei na criação de sites
-                  em HTML5, Sass e Javascript, sistemas em NextJS e Styled
+                <span aria-hidden="true">:</span>{' '}
+                <span className="green" aria-hidden="true">
+                  “Desenvolvimento de diversos sites e sistemas web voltados
+                  para as mais diversas áreas de atuação, atuei na criação de
+                  sites em HTML5, Sass e Javascript, sistemas em NextJS e Styled
                   Components, além do desenvolvimento do novo Painel de Controle
-                  feito em Laravel
-                  <span aria-hidden="true">”</span>
+                  feito em Laravel”
                 </span>
               </li>
             </ul>
           </S.SpaceTwo>
-          <S.SpaceOne>{'},'}</S.SpaceOne>
-          <S.SpaceOne>{'{'}</S.SpaceOne>
+          <S.SpaceOne aria-hidden="true">{'},'}</S.SpaceOne>
+          <S.SpaceOne aria-hidden="true">{'{'}</S.SpaceOne>
           <S.SpaceTwo>
             <ul>
-              <li>
-                <span className="red">
-                  <span aria-hidden="true">“</span>
-                  empresa
-                  <span aria-hidden="true">”</span>
+              <li aria-label="Empresa: Grano Studio">
+                <span className="red" aria-hidden="true">
+                  “empresa”
                 </span>
-                :{' '}
-                <span className="green">
-                  <span aria-hidden="true">“</span>
-                  Grano Studio
-                  <span aria-hidden="true">”</span>
+                <span aria-hidden="true">:</span>{' '}
+                <span className="green" aria-hidden="true">
+                  “Grano Studio”
                 </span>
               </li>
-              <li>
-                <span className="red">
-                  <span aria-hidden="true">“</span>
-                  período
-                  <span aria-hidden="true">”</span>
+              <li aria-label="Período: De setembro de 2020 à Agosto de 2021">
+                <span className="red" aria-hidden="true">
+                  “período”
                 </span>
-                :{' '}
-                <span className="green">
-                  <span aria-hidden="true">“</span>
-                  Set/2020 - Ago/2021
-                  <span aria-hidden="true">”</span>
+                <span aria-hidden="true">:</span>{' '}
+                <span className="green" aria-hidden="true">
+                  “Set/2020 - Ago/2021”
                 </span>
               </li>
-              <li>
-                <span className="red">
-                  <span aria-hidden="true">“</span>
-                  cargo
-                  <span aria-hidden="true">”</span>
+              <li aria-label="Cargo: Desenvolvedor Web">
+                <span className="red" aria-hidden="true">
+                  “cargo”
                 </span>
-                :{' '}
-                <span className="green">
-                  <span aria-hidden="true">“</span>
-                  Desenvolvedor Web
-                  <span aria-hidden="true">”</span>
+                <span aria-hidden="true">:</span>{' '}
+                <span className="green" aria-hidden="true">
+                  “Desenvolvedor Web”
                 </span>
               </li>
-              <li>
-                <span className="red">
-                  <span aria-hidden="true">“</span>
-                  atividades
-                  <span aria-hidden="true">”</span>
+              <li aria-label="Atividades: Atuei na criação de sites instituionais e blogs utilizando NextJS, Styled Components e utilizando o Wordpress como REST API para servir as informações para os projetos, além de dar manutenção à projetos legados feitos em Wordpress, HTML5, Sass e JQuery ou JS Vanilla">
+                <span className="red" aria-hidden="true">
+                  “atividades”
                 </span>
-                :{' '}
-                <span className="green">
-                  <span aria-hidden="true">“</span>
-                  Atuei na criação de sites instituionais e blogs utilizando
+                <span aria-hidden="true">:</span>{' '}
+                <span className="green" aria-hidden="true">
+                  “Atuei na criação de sites instituionais e blogs utilizando
                   NextJS, Styled Components e utilizando o Wordpress como REST
                   API para servir as informações para os projetos, além de dar
                   manutenção à projetos legados feitos em Wordpress, HTML5, Sass
-                  e JQuery ou JS Vanilla
-                  <span aria-hidden="true">”</span>
+                  e JQuery ou JS Vanilla”
                 </span>
               </li>
             </ul>
           </S.SpaceTwo>
-          <S.SpaceOne>{'}'}</S.SpaceOne>
+          <S.SpaceOne aria-hidden="true">{'}'}</S.SpaceOne>
           <div aria-hidden="true">]</div>
         </div>
       </S.TabPanels>
