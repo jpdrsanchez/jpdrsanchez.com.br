@@ -15,4 +15,9 @@ export const Button = styled.button`
   text-align: center;
   width: max-content;
   cursor: pointer;
+  transition: all 0.3s;
+
+  &:hover {
+    background: rgba(20, 20, 20, 0.8);
+  }
 `
