@@ -12,4 +12,9 @@ export const FooterContainer = styled(Container)`
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media (max-width: 35.9375em) {
+    flex-direction: column;
+    gap: 0.625rem;
+  }
 `
