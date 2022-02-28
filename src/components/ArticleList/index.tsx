@@ -7,7 +7,7 @@ import * as S from './styles'
 const ArticleList = () => {
   return (
     <S.List>
-      <Link href="/" passHref>
+      <Link href="/post/desenvolvimento-e-concepcao-do-meu-novo-blog" passHref>
         <S.Item>
           <div />
           <div />
@@ -40,7 +40,7 @@ const ArticleList = () => {
           </article>
         </S.Item>
       </Link>
-      <Link href="/" passHref>
+      <Link href="/post/desenvolvimento-e-concepcao-do-meu-novo-blog" passHref>
         <S.Item>
           <div />
           <div />
@@ -73,7 +73,7 @@ const ArticleList = () => {
           </article>
         </S.Item>
       </Link>
-      <Link href="/" passHref>
+      <Link href="/post/desenvolvimento-e-concepcao-do-meu-novo-blog" passHref>
         <S.Item>
           <div />
           <div />
