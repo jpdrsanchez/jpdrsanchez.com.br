@@ -1,8 +1,9 @@
+import Link from 'next/link'
+
 import ArticleList from 'components/ArticleList'
 import Button from 'components/common/Button'
 import Container from 'components/common/Container'
 import Title from 'components/common/Title'
-import Link from 'next/link'
 import * as S from './styles'
 
 const BlogSection = () => {

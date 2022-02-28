@@ -1,4 +1,5 @@
 import Head from 'next/head'
+
 import PostTemplate from 'templates/PostTemplate'
 
 const Post = () => {

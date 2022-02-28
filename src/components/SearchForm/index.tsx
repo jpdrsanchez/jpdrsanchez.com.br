@@ -1,4 +1,5 @@
 import { IoSearchSharp } from 'react-icons/io5'
+
 import * as S from './styles'
 
 const SearchForm = () => {

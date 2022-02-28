@@ -1,6 +1,7 @@
+import { IoLogoGithub, IoLogoInstagram, IoLogoLinkedin } from 'react-icons/io5'
+
 import Text from 'components/common/Text'
 import IconNav from 'components/IconNav'
-import { IoLogoGithub, IoLogoInstagram, IoLogoLinkedin } from 'react-icons/io5'
 import * as S from './styles'
 
 const Footer = () => {

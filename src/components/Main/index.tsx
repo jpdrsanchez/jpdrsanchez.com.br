@@ -1,6 +1,7 @@
+import Image from 'next/image'
+
 import Text from 'components/common/Text'
 import Title from 'components/common/Title'
-import Image from 'next/image'
 import * as S from './styles'
 
 const Main = () => {

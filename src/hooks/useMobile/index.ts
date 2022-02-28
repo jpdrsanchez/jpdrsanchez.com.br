@@ -1,5 +1,6 @@
-import useDebounce from 'hooks/useDebounce'
 import { useEffect, useState } from 'react'
+
+import useDebounce from 'hooks/useDebounce'
 
 const useMobile = (mobileSize: number) => {
   const [isMobile, setIsMobile] = useState(false)

@@ -1,12 +1,18 @@
+import { NextSeo } from 'next-seo'
+import { IoLogoGithub, IoLogoInstagram, IoLogoLinkedin } from 'react-icons/io5'
+
 import Text from 'components/common/Text'
 import Title from 'components/common/Title'
 import IconNav from 'components/IconNav'
-import { IoLogoGithub, IoLogoInstagram, IoLogoLinkedin } from 'react-icons/io5'
 import * as S from './styles'
 
 const ContactTemplate = () => {
   return (
     <S.Main>
+      <NextSeo
+        title="Contato"
+        description="Entre em contato comigo em caso de dúvidas ou por qualquer outro motivo."
+      />
       <S.Content>
         <Title align="center">Contato</Title>
         <Text align="center">

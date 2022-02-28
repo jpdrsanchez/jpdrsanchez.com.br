@@ -1,8 +1,9 @@
+import Link from 'next/link'
+import { IoLogoLinkedin, IoLogoGithub } from 'react-icons/io5'
+
 import IconNav from 'components/IconNav'
 import Logo from 'components/Logo'
 import Menu from 'components/Menu'
-import Link from 'next/link'
-import { IoLogoLinkedin, IoLogoGithub } from 'react-icons/io5'
 
 import * as S from './styles'
 

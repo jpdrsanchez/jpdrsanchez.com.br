@@ -1,7 +1,8 @@
-import Text from 'components/common/Text'
-import Title from 'components/common/Title'
 import Image from 'next/image'
 import Link from 'next/link'
+
+import Text from 'components/common/Text'
+import Title from 'components/common/Title'
 import * as S from './styles'
 
 const ArticleList = () => {
